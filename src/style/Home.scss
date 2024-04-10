@@ -1,0 +1,56 @@
+@import './Colors.scss';
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.lado-esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    background-color: $color1;
+
+    img {
+        width: 80%;
+        object-fit: contain;
+    }
+
+}
+
+.lado-direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    overflow-y: auto;
+    background-color: $color4;
+    padding: 80px;
+
+    h2 {
+        margin: 64px 0 48px 0;
+        color: $color7;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+
+    .input-senha {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    a {
+        color: $color3;
+    }
+}
+

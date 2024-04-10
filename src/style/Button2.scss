@@ -1,0 +1,31 @@
+@import './Colors.scss';
+
+.link-singup {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: $color8;
+    padding: 16px 24px;
+
+
+    img {
+    width: 28px;
+    height: 28px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        p:first-child {
+            color: $color2;
+        }
+
+        p:last-child {
+            color: $color3;
+        }
+    }
+}
+
