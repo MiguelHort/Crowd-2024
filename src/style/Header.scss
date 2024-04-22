@@ -1,0 +1,70 @@
+@import './Colors.scss';
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+
+    nav {
+        display: flex;
+        gap: 40px;
+
+        a {
+            color: $color7;
+
+            &:hover {
+                color: $color2;
+            }
+        }
+    }
+
+    .login {
+        display: flex;
+        gap: 16px;
+        
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            a {
+                font-size: 12px;
+                font-weight: bold;
+                color: $color2;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid $color3 1px;
+            padding: 8px;
+            border-radius: 4px;
+            background-color: transparent;
+            color: $color2;
+            font-weight: bold;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $color3;
+                transition: 500ms;
+            }
+        }
+    }
+}

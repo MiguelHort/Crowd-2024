@@ -1,23 +1,23 @@
 import React from 'react';
 
-import Input1 from './componentes/Input1';
-import Button1 from './componentes/Button1';
-import Button2 from './componentes/Button2';
+import Input1 from '../components/Input1';
+import Button1 from '../components/Button1';
+import Button2 from '../components/Button2';
 
-import './style/Home.scss'
+import '../style/Singin.scss';
 
-import ImagemLogin from './assets/Img/ImagemLogin.png';
-import ImagemLogo1 from './assets/Icon/Logo-1.png';
+import ImagemLogin from '../assets/Img/ImagemLogin.png';
+import Logo1 from '../assets/Icon/Logo1';
 
 
-function Home () {
+function Singin () {
     return (
         <main>
             <div className='lado-esquerdo'>
                 <img src={ImagemLogin} alt="Logo" />
             </div>
             <div className='lado-direito'>
-                <img src={ImagemLogo1} alt="Logo" />
+                <Logo1></Logo1>
                 <h2>Acesse sua conta</h2>
                 <form action="">
                     <Input1 
@@ -46,4 +46,4 @@ function Home () {
 
 
 
-export default Home
+export default Singin
