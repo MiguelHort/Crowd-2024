@@ -1,0 +1,20 @@
+@import './Colors.scss';
+
+.input-pesquisa {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: $color2;
+    border-radius: 8px;
+    padding: 10px 20px;
+
+    input {
+        width: 100%;
+        height: 24px;
+        padding-left: 15px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

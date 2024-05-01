@@ -1,0 +1,34 @@
+@import './Colors.scss';
+
+.card-popular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+
+    img {
+        width: 100%;
+        height: 85%;
+        object-fit: cover;
+        
+    }
+
+    div {
+        width: 100%;
+        height: 15%;
+        background-color: $color3;
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            font-weight: 600;
+            color: $color2;
+        }
+    }
+}
