@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Button2.scss';
+import '../style/components/Button2.scss';
 
 import IconeAviao from '../assets/Icon/Icone-Aviao.svg';
 import IconeSetaDireita from '../assets/Icon/Icone-Seta-Direita.svg';

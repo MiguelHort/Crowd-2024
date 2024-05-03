@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Input1.scss';
+import '../style/components/Input1.scss';
 import '../style/Global.scss';
 
 function Input1({ label, interior }) {

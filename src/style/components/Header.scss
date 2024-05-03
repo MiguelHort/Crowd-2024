@@ -1,4 +1,4 @@
-@import './Colors.scss';
+@import '../Colors.scss';
 
 header {
     display: flex;
@@ -14,7 +14,20 @@ header {
     width: 90%;
     height: 80px;
 
-    nav {
+    .logo-menu {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        div {
+            width: 1px;
+            height: 40px;
+            background-color: $color2;
+        }
+    }
+
+    .menu-notebook {
         display: flex;
         gap: 40px;
 
@@ -30,7 +43,7 @@ header {
     .login {
         display: flex;
         gap: 16px;
-        
+
 
         div {
             display: flex;
@@ -67,4 +80,32 @@ header {
             }
         }
     }
+}
+
+// Responsive
+
+@media (width <= 1199px) {
+
+    .cabecalho {
+
+        .logo1 {
+            display: none;
+        }
+
+        .logo-menu {
+            display: flex;
+        }
+
+        .menu-notebook {
+            display: none;
+        }
+
+        .login a {
+            display: none;
+        }
+
+    }
+
+
+
 }

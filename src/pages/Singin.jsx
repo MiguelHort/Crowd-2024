@@ -4,7 +4,7 @@ import Input1 from '../components/Input1';
 import Button1 from '../components/Button1';
 import Button2 from '../components/Button2';
 
-import '../style/Singin.scss';
+import '../style/pages/Singin.scss';
 
 import ImagemLogin from '../assets/Img/ImagemLogin.png';
 import Logo1 from '../assets/Icon/Logo1';

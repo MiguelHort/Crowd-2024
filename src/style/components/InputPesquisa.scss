@@ -1,9 +1,10 @@
-@import './Colors.scss';
+@import '../Colors.scss';
 
 .input-pesquisa {
     display: flex;
     align-items: center;
     width: 40%;
+    min-width: 500px;
     background-color: $color2;
     border-radius: 8px;
     padding: 10px 20px;
@@ -17,4 +18,15 @@
             outline: none;
         }
     }
+}
+
+// Responsive
+
+@media (width <= 600px) {
+
+    .input-pesquisa {
+        width: 80%;
+        min-width: 100px;
+    }
+
 }

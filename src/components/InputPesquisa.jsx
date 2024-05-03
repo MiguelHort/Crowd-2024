@@ -2,7 +2,7 @@ import React from 'react';
 
 import IconLupa from '../assets/Icon/IconLupa';
 
-import '../style/InputPesquisa.scss'
+import '../style/components/InputPesquisa.scss'
 
 function InputPesquisa() {
     return (

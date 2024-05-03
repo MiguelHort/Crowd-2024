@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Button1.scss';
+import '../style/components/Button1.scss';
 
 function Button1({ escrita }) {
     return (
@@ -8,3 +8,4 @@ function Button1({ escrita }) {
 }
 
 export default Button1;
+

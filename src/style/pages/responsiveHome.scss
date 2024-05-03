@@ -1,0 +1,60 @@
+@import '../Colors.scss';
+
+@media (width <= 600px ){
+
+    // section input 
+
+    .section-input {
+        height: 40vh;
+    }
+
+    // section popular
+
+    .section-popular {
+
+        .popular{
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+
+        }
+
+    }
+
+}
+
+@media (601px <= width <= 1199px){
+
+    // section input 
+
+    .section-input {
+        height: 50vh;
+    }
+
+    // section popular
+
+    .section-popular {
+
+        .popular{
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .cards {
+                gap: 20px;
+            }
+
+        }
+
+    }
+
+
+}
